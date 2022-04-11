@@ -1,13 +1,10 @@
 import React from "react";
+import logo from "/Users/dhruvkuncha/Desktop/amazon-clone/src/amazon.png";
 
 function Header() {
   return (
     <div className="header">
-      <img
-        className="header__logo"
-        alt="hello"
-        src={"https://pngimg.com/uploads/amazon/asmall/amazon_PNG1.png"}
-      />
+      <img className="header__logo" alt="hello" src={logo} width='100'/>
 
       <div className="header__search">
         <input className="header__searchInput" type="text" />
